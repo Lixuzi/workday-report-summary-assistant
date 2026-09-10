@@ -1,0 +1,17 @@
+.DS_Store
+._*
+__pycache__/
+*.py[cod]
+node_modules/
+work/
+outputs/
+state/
+profile.json
+followups.json
+ledger*.json
+*-ledger.json
+工作日报-*.xlsx
+*.log
+.env
+.env.*
+!.env.example
