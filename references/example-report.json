@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "timezone": "Asia/Shanghai",
+  "category_order": ["项目工作", "沟通协作", "其他"],
+  "days": [
+    {
+      "date": "2026-01-05",
+      "coverage": "虚构示例：电脑记录与使用者补充",
+      "items": [
+        {"id": "plan", "category": "项目工作", "project": "项目甲方案", "progress": "完成方案初稿与内容校对", "follow_up": "对外发送状态待确认", "evidence": ["虚构示例：方案文件核查"]},
+        {"id": "materials", "category": "项目工作", "project": "项目乙资料整理", "progress": "整理参考资料并标注需补充内容", "follow_up": "补充产品规格信息", "evidence": ["虚构示例：资料清单"]},
+        {"id": "meeting", "category": "沟通协作", "project": "项目沟通", "progress": "按用户补充记录会议结论", "follow_up": "确认对方反馈时间", "evidence": ["虚构示例：用户确认"]}
+      ]
+    },
+    {
+      "date": "2026-01-06",
+      "coverage": "虚构示例：电脑记录与使用者补充",
+      "items": [
+        {"id": "plan", "category": "项目工作", "project": "项目甲方案", "progress": "用户确认方案已发出", "follow_up": "收件方反馈待确认", "evidence": ["虚构示例：用户确认"]},
+        {"id": "materials", "category": "项目工作", "project": "项目乙资料整理", "progress": "完成规格信息补充，核对不同版本中适用范围及限制条件，整理需进一步确认的问题", "follow_up": "确认有疑问的版本差异", "evidence": ["虚构示例：文件比对"]},
+        {"id": "request", "category": "其他", "project": "办公申请", "progress": "查看申请页面与材料要求", "follow_up": "申请是否提交待确认", "evidence": ["虚构示例：页面查看记录"]}
+      ]
+    }
+  ]
+}
