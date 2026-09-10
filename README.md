@@ -2,6 +2,10 @@
 
 面向 ChatGPT Pro 用户的工作日报 Skill，从电脑历史发现工作、核实进展，并生成简报与按日期累计的 Excel
 
+![工作日报实际 Excel 效果](docs/workday-report-example.png)
+
+*使用者提供的实际日报截图，部分信息已遮盖，仅供效果展示*
+
 **电脑历史发现工作 → 核实实际进展 → 按项目归并 → 一句话确认 → 输出日报**
 
 版本：1.0.0 · Skill 标识：`workday-report-summary-assistant`
@@ -67,6 +71,7 @@ workday-report-summary-assistant/
 ├── README.md                       使用说明
 ├── agents/openai.yaml              显示名称与默认提示
 ├── assets/report-template.xlsx     空白模板
+├── docs/workday-report-example.png 实际日报主图
 ├── docs/template-preview.png       模板预览
 ├── scripts/
 │   ├── report_data.mjs             日期与历史合并
@@ -84,7 +89,7 @@ workday-report-summary-assistant/
 
 电脑历史用于发现工作线索，直接文件、应用记录和使用者确认用于判断成果。线下工作和记录缺口由使用者补充，不根据记录空白推断当天没有工作
 
-每个人的配置、证据、日报和跟进状态单独保存在其任务目录。仓库只包含通用规则、空白模板和虚构示例；`.gitignore` 排除了常见运行目录与状态文件
+每个人的配置、证据、日报和跟进状态单独保存在其任务目录。仓库包含通用规则、空白模板、虚构示例及使用者授权展示的日报截图；`.gitignore` 排除了常见运行目录与状态文件
 
 ## 验证情况
 
