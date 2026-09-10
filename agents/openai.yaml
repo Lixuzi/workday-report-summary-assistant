@@ -1,0 +1,4 @@
+interface:
+  display_name: "工作日报汇总助手"
+  short_description: "面向 Pro 用户，从电脑历史核实工作进展，生成简报与累计 Excel 日报"
+  default_prompt: "请使用 $workday-report-summary-assistant 整理我今天的工作，核实进展并生成累计 Excel 日报，不明确的状态集中让我一句话补充"
